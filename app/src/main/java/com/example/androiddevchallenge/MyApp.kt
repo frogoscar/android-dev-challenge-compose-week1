@@ -21,8 +21,8 @@ import android.content.Context
 
 /**
  *
- * @author   Enming XIE
- * @created  2021/3/2
+ * @author Enming XIE
+ * @created 2021/3/2
  */
 class MyApp : Application() {
 
@@ -35,5 +35,4 @@ class MyApp : Application() {
         @SuppressLint("StaticFieldLeak")
         lateinit var context: Context
     }
-
 }

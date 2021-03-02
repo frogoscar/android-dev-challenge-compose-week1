@@ -28,8 +28,8 @@ import kotlinx.coroutines.withContext
 import timber.log.Timber
 
 /**
- * @author   Enming XIE
- * @created  2021/3/2
+ * @author Enming XIE
+ * @created 2021/3/2
  */
 class MainViewModel(private val repository: KittyRepository) : ViewModel() {
 
@@ -60,5 +60,4 @@ class MainViewModel(private val repository: KittyRepository) : ViewModel() {
         kittyList[position].adopted = true
         _kitties.value = _kitties.value
     }
-
 }

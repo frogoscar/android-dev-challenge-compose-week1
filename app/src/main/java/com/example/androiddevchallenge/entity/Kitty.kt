@@ -21,8 +21,8 @@ import kotlinx.parcelize.Parcelize
 
 /**
  * Entity class for Kitty
- * @author   Enming XIE
- * @created  2021/3/2
+ * @author Enming XIE
+ * @created 2021/3/2
  */
 @Parcelize
 data class Kitty(

@@ -21,8 +21,8 @@ import com.example.androiddevchallenge.data.KittyRepository
 
 /**
  *
- * @author   Enming XIE
- * @created  2021/3/2
+ * @author Enming XIE
+ * @created 2021/3/2
  */
 class MainViewModelFactory : ViewModelProvider.Factory {
 

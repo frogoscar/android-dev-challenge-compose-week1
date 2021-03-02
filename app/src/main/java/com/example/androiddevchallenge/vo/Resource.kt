@@ -17,8 +17,8 @@ package com.example.androiddevchallenge.vo
 
 /**
  * Generic class holding a value with its success, error or loading status, etc.
- * @author   Enming XIE
- * @created  2021/3/2
+ * @author Enming XIE
+ * @created 2021/3/2
  */
 data class Resource<out T>(val status: Status, val data: T?, val message: String?, val strResId: Int?) {
     companion object {
@@ -26,7 +26,7 @@ data class Resource<out T>(val status: Status, val data: T?, val message: String
             return Resource(Status.SUCCESS, data, message, strResId)
         }
 
-        fun <T> error(_msg: String? = null, data: T? = null, strResId: Int?= null ): Resource<T> {
+        fun <T> error(_msg: String? = null, data: T? = null, strResId: Int? = null): Resource<T> {
             val msg = _msg ?: "Unknown error."
             return Resource(Status.ERROR, data, msg, strResId)
         }

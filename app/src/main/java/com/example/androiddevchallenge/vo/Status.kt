@@ -21,8 +21,8 @@ package com.example.androiddevchallenge.vo
  * These are usually created by the Repository classes where they return
  * `LiveData<Resource<T>>` to pass back the latest data to the UI with its fetch status.
  *
- * @author   Enming XIE
- * @created  2021/3/2
+ * @author Enming XIE
+ * @created 2021/3/2
  */
 enum class Status {
     SUCCESS,

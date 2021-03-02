@@ -28,8 +28,8 @@ import java.io.InputStreamReader
 
 /**
  *
- * @author   Enming XIE
- * @created  2021/3/2
+ * @author Enming XIE
+ * @created 2021/3/2
  */
 class KittyRepository {
 
@@ -52,5 +52,4 @@ class KittyRepository {
         job.join()
         kitties
     }
-
 }

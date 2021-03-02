@@ -22,8 +22,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.doOnLayout
 
 /**
- * @author   Enming XIE
- * @created  2021/3/2
+ * @author Enming XIE
+ * @created 2021/3/2
  */
 open class BaseActivity : AppCompatActivity() {
 
@@ -40,5 +40,4 @@ open class BaseActivity : AppCompatActivity() {
             window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR
         }
     }
-
 }

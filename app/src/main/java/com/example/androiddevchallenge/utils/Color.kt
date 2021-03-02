@@ -19,8 +19,8 @@ import androidx.compose.ui.graphics.Color
 
 /**
  * Color extensions.
- * @author   Enming XIE
- * @created  2021/3/2
+ * @author Enming XIE
+ * @created 2021/3/2
  */
 val Color.Companion.Shadow: Color
     get() {
